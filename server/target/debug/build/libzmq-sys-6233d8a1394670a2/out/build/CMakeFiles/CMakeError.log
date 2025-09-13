@@ -1,0 +1,365 @@
+Determining if the kqueue exist failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rQ36b
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62813/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62813.dir/build.make CMakeFiles/cmTC_62813.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rQ36b'
+Building CXX object CMakeFiles/cmTC_62813.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_62813.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rQ36b/CheckSymbolExists.cxx
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rQ36b/CheckSymbolExists.cxx:2:10: fatal error: sys/event.h: No such file or directory
+    2 | #include <sys/event.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_62813.dir/build.make:78: CMakeFiles/cmTC_62813.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rQ36b'
+gmake: *** [Makefile:127: cmTC_62813/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/event.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef kqueue
+  return ((int*)(&kqueue))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files windows.h exist failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-BLSrVA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e43f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e43f5.dir/build.make CMakeFiles/cmTC_e43f5.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-BLSrVA'
+Building C object CMakeFiles/cmTC_e43f5.dir/ZMQ_HAVE_WINDOWS.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_e43f5.dir/ZMQ_HAVE_WINDOWS.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-BLSrVA/ZMQ_HAVE_WINDOWS.c
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-BLSrVA/ZMQ_HAVE_WINDOWS.c:2:10: fatal error: windows.h: No such file or directory
+    2 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e43f5.dir/build.make:78: CMakeFiles/cmTC_e43f5.dir/ZMQ_HAVE_WINDOWS.c.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-BLSrVA'
+gmake: *** [Makefile:127: cmTC_e43f5/fast] Error 2
+
+
+Source:
+/* */
+#include <windows.h>
+
+
+int main(void){return 0;}
+
+Determining if the LOCAL_PEERCRED exist failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92731/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92731.dir/build.make CMakeFiles/cmTC_92731.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ'
+Building CXX object CMakeFiles/cmTC_92731.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_92731.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ/CheckSymbolExists.cxx
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ/CheckSymbolExists.cxx:8:19: error: 'LOCAL_PEERCRED' was not declared in this scope; did you mean 'SO_PEERCRED'?
+    8 |   return ((int*)(&LOCAL_PEERCRED))[argc];
+      |                   ^~~~~~~~~~~~~~
+      |                   SO_PEERCRED
+At global scope:
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+gmake[1]: *** [CMakeFiles/cmTC_92731.dir/build.make:78: CMakeFiles/cmTC_92731.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-qwfqWZ'
+gmake: *** [Makefile:127: cmTC_92731/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef LOCAL_PEERCRED
+  return ((int*)(&LOCAL_PEERCRED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethrtimei exist failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f81ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f81ce.dir/build.make CMakeFiles/cmTC_f81ce.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y'
+Building CXX object CMakeFiles/cmTC_f81ce.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_f81ce.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y/CheckSymbolExists.cxx
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y/CheckSymbolExists.cxx:8:19: error: 'gethrtimei' was not declared in this scope; did you mean 'getitimer'?
+    8 |   return ((int*)(&gethrtimei))[argc];
+      |                   ^~~~~~~~~~
+      |                   getitimer
+At global scope:
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+gmake[1]: *** [CMakeFiles/cmTC_f81ce.dir/build.make:78: CMakeFiles/cmTC_f81ce.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9qlQ5y'
+gmake: *** [Makefile:127: cmTC_f81ce/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethrtimei
+  return ((int*)(&gethrtimei))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wall failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u8Sv9n
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0856f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0856f.dir/build.make CMakeFiles/cmTC_0856f.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u8Sv9n'
+Building CXX object CMakeFiles/cmTC_0856f.dir/src.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wall -Wall -o CMakeFiles/cmTC_0856f.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u8Sv9n/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_0856f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0856f.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0856f.dir/src.cxx.o -o cmTC_0856f 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u8Sv9n'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wextra failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9Y2sbO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a9e1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a9e1.dir/build.make CMakeFiles/cmTC_3a9e1.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9Y2sbO'
+Building CXX object CMakeFiles/cmTC_3a9e1.dir/src.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wextra -Wextra -o CMakeFiles/cmTC_3a9e1.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9Y2sbO/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_3a9e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a9e1.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_3a9e1.dir/src.cxx.o -o cmTC_3a9e1 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-9Y2sbO'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-long-long failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-2wv1VP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b51c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b51c1.dir/build.make CMakeFiles/cmTC_b51c1.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-2wv1VP'
+Building CXX object CMakeFiles/cmTC_b51c1.dir/src.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-long-long -Wno-long-long -o CMakeFiles/cmTC_b51c1.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-2wv1VP/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_b51c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b51c1.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b51c1.dir/src.cxx.o -o cmTC_b51c1 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-2wv1VP'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-Wno-uninitialized failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-LdR4AR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9f84d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f84d.dir/build.make CMakeFiles/cmTC_9f84d.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-LdR4AR'
+Building CXX object CMakeFiles/cmTC_9f84d.dir/src.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-Wno-uninitialized -Wno-uninitialized -o CMakeFiles/cmTC_9f84d.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-LdR4AR/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_9f84d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f84d.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_9f84d.dir/src.cxx.o -o cmTC_9f84d 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-LdR4AR'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_FLAG_-pedantic failed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-cs5E4j
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b2de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b2de.dir/build.make CMakeFiles/cmTC_7b2de.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-cs5E4j'
+Building CXX object CMakeFiles/cmTC_7b2de.dir/src.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare    -DHAVE_FLAG_-pedantic -pedantic -o CMakeFiles/cmTC_7b2de.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-cs5E4j/src.cxx
+<command-line>: warning: ISO C++11 requires whitespace after the macro name
+cc1plus: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+Linking CXX executable cmTC_7b2de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b2de.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_7b2de.dir/src.cxx.o -o cmTC_7b2de 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-cs5E4j'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPALIVE failed with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0d75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0d75.dir/build.make CMakeFiles/cmTC_a0d75.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx'
+Building C object CMakeFiles/cmTC_a0d75.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_TCP_KEEPALIVE  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_a0d75.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx/src.c
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx/src.c: In function 'main':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx/src.c:13:42: error: 'TCP_KEEPALIVE' undeclared (first use in this function); did you mean 'SO_KEEPALIVE'?
+   13 |        ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+      |                                          ^~~~~~~~~~~~~
+      |                                          SO_KEEPALIVE
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx/src.c:13:42: note: each undeclared identifier is reported only once for each function it appears in
+At top level:
+cc1: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+gmake[1]: *** [CMakeFiles/cmTC_a0d75.dir/build.make:78: CMakeFiles/cmTC_a0d75.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-6N4Lbx'
+gmake: *** [Makefile:127: cmTC_a0d75/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_PTHREAD_SETNAME_1 failed with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a70e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a70e.dir/build.make CMakeFiles/cmTC_3a70e.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU'
+Building C object CMakeFiles/cmTC_3a70e.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_1  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_3a70e.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU/src.c
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU/src.c: In function 'main':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU/src.c:6:25: error: passing argument 1 of 'pthread_setname_np' makes integer from pointer without a cast [-Werror=int-conversion]
+    6 |     pthread_setname_np ("foo");
+      |                         ^~~~~
+      |                         |
+      |                         char *
+In file included from /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU/src.c:2:
+/usr/include/pthread.h:463:42: note: expected 'pthread_t' {aka 'long unsigned int'} but argument is of type 'char *'
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |                                ~~~~~~~~~~^~~~~~~~~~~~~~~
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU/src.c:6:5: error: too few arguments to function 'pthread_setname_np'
+    6 |     pthread_setname_np ("foo");
+      |     ^~~~~~~~~~~~~~~~~~
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_3a70e.dir/build.make:78: CMakeFiles/cmTC_3a70e.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mml2RU'
+gmake: *** [Makefile:127: cmTC_3a70e/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char *argv [])
+{
+    pthread_setname_np ("foo");
+    return 0;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_PTHREAD_SETNAME_3 failed with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0f1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0f1c.dir/build.make CMakeFiles/cmTC_d0f1c.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr'
+Building C object CMakeFiles/cmTC_d0f1c.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_3  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_d0f1c.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr/src.c
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr/src.c: In function 'main':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr/src.c:6:5: error: too many arguments to function 'pthread_setname_np'
+    6 |     pthread_setname_np (pthread_self(), "foo", (void *)0);
+      |     ^~~~~~~~~~~~~~~~~~
+In file included from /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr/src.c:2:
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+At top level:
+cc1: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+gmake[1]: *** [CMakeFiles/cmTC_d0f1c.dir/build.make:78: CMakeFiles/cmTC_d0f1c.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-ZelRkr'
+gmake: *** [Makefile:127: cmTC_d0f1c/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char *argv [])
+{
+    pthread_setname_np (pthread_self(), "foo", (void *)0);
+    return 0;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_PTHREAD_SET_NAME failed with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_10764/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_10764.dir/build.make CMakeFiles/cmTC_10764.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb'
+Building C object CMakeFiles/cmTC_10764.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_PTHREAD_SET_NAME  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_10764.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb/src.c
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb/src.c: In function 'main':
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb/src.c:6:5: error: implicit declaration of function 'pthread_set_name_np'; did you mean 'pthread_setname_np'? [-Werror=implicit-function-declaration]
+    6 |     pthread_set_name_np (pthread_self(), "foo");
+      |     ^~~~~~~~~~~~~~~~~~~
+      |     pthread_setname_np
+At top level:
+cc1: note: unrecognized command-line option '-Wno-tautological-constant-compare' may have been intended to silence earlier diagnostics
+cc1: all warnings being treated as errors
+gmake[1]: *** [CMakeFiles/cmTC_10764.dir/build.make:78: CMakeFiles/cmTC_10764.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-mkeCeb'
+gmake: *** [Makefile:127: cmTC_10764/fast] Error 2
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char *argv [])
+{
+    pthread_set_name_np (pthread_self(), "foo");
+    return 0;
+}
+
+

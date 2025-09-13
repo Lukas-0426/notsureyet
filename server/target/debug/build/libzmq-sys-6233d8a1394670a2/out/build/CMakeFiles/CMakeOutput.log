@@ -1,0 +1,1215 @@
+The system is: Linux - 6.6.87.2-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: ;-ffunction-sections;-fdata-sections;-fPIC;-m64
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Z9lf63
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c19a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c19a2.dir/build.make CMakeFiles/cmTC_c19a2.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Z9lf63'
+Building C object CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c19a2.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccTCzkkN.s
+GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: df5cb71f7b1353aac39c2b59ae45fa4a
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/'
+ as -v --64 -o CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o /tmp/ccTCzkkN.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_c19a2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19a2.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -o cmTC_c19a2 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_c19a2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c19a2.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQC0tIc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c19a2 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_c19a2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c19a2.'
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Z9lf63'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Z9lf63]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c19a2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c19a2.dir/build.make CMakeFiles/cmTC_c19a2.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Z9lf63']
+  ignore line: [Building C object CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_c19a2.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccTCzkkN.s]
+  ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: df5cb71f7b1353aac39c2b59ae45fa4a]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o /tmp/ccTCzkkN.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_c19a2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c19a2.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -o cmTC_c19a2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_c19a2' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c19a2.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/ccQC0tIc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c19a2 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccQC0tIc.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c19a2] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_c19a2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-hVLGJo
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21745/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21745.dir/build.make CMakeFiles/cmTC_21745.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-hVLGJo'
+Building CXX object CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_21745.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/cceYR9hx.s
+GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/12
+ /usr/include/x86_64-linux-gnu/c++/12
+ /usr/include/c++/12/backward
+ /usr/lib/gcc/x86_64-linux-gnu/12/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 12.2.0, GMP version 6.2.1, MPFR version 4.2.0, MPC version 1.3.1, isl version isl-0.25-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 18a4c0b3348b838f5ec9d956298050ac
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/'
+ as -v --64 -o CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceYR9hx.s
+GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_21745
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21745.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_21745 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_21745' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21745.'
+ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cckQ5rcn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_21745 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_21745' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21745.'
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-hVLGJo'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/12]
+    add: [/usr/include/x86_64-linux-gnu/c++/12]
+    add: [/usr/include/c++/12/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/12] ==> [/usr/include/c++/12]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/12] ==> [/usr/include/x86_64-linux-gnu/c++/12]
+  collapse include dir [/usr/include/c++/12/backward] ==> [/usr/include/c++/12/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/12/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/12/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/12;/usr/include/x86_64-linux-gnu/c++/12;/usr/include/c++/12/backward;/usr/lib/gcc/x86_64-linux-gnu/12/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-hVLGJo]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21745/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21745.dir/build.make CMakeFiles/cmTC_21745.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-hVLGJo']
+  ignore line: [Building CXX object CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64    -v -o CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_21745.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -mtune=generic -march=x86-64 -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/cceYR9hx.s]
+  ignore line: [GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/12"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/12]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/12]
+  ignore line: [ /usr/include/c++/12/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/12/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Debian 12.2.0-14+deb12u1) version 12.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 12.2.0  GMP version 6.2.1  MPFR version 4.2.0  MPC version 1.3.1  isl version isl-0.25-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 18a4c0b3348b838f5ec9d956298050ac]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceYR9hx.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-o' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_21745]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21745.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64   -v -rdynamic CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_21745 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 12.2.0-14+deb12u1' --with-bugurl=file:///usr/share/doc/gcc-12/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-12 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-12-12.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 12.2.0 (Debian 12.2.0-14+deb12u1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/12/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/12/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-v' '-rdynamic' '-o' 'cmTC_21745' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21745.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/12/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper -plugin-opt=-fresolution=/tmp/cckQ5rcn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_21745 /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/12/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckQ5rcn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_21745] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [CMakeFiles/cmTC_21745.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-HvqRQa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccbcb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccbcb.dir/build.make CMakeFiles/cmTC_ccbcb.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-HvqRQa'
+Building C object CMakeFiles/cmTC_ccbcb.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_ccbcb.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-HvqRQa/src.c
+Linking C executable cmTC_ccbcb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccbcb.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_ccbcb.dir/src.c.o -o cmTC_ccbcb 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-HvqRQa'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-U21Dgk
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80ca2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80ca2.dir/build.make CMakeFiles/cmTC_80ca2.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-U21Dgk'
+Building CXX object CMakeFiles/cmTC_80ca2.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_CXX11  -ffunction-sections -fdata-sections -fPIC -m64    -std=gnu++11 -o CMakeFiles/cmTC_80ca2.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-U21Dgk/src.cxx
+Linking CXX executable cmTC_80ca2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80ca2.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_80ca2.dir/src.cxx.o -o cmTC_80ca2 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-U21Dgk'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_SUPPORTS_C11 succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bd0S64
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_faa6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_faa6a.dir/build.make CMakeFiles/cmTC_faa6a.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bd0S64'
+Building C object CMakeFiles/cmTC_faa6a.dir/src.c.o
+/usr/bin/cc -DCOMPILER_SUPPORTS_C11  -ffunction-sections -fdata-sections -fPIC -m64    -std=gnu11 -o CMakeFiles/cmTC_faa6a.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bd0S64/src.c
+Linking C executable cmTC_faa6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_faa6a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64  -rdynamic CMakeFiles/cmTC_faa6a.dir/src.c.o -o cmTC_faa6a 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bd0S64'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_HAS_TAUT_WARNING succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-MYaRO9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0e7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0e7b.dir/build.make CMakeFiles/cmTC_b0e7b.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-MYaRO9'
+Building CXX object CMakeFiles/cmTC_b0e7b.dir/src.cxx.o
+/usr/bin/c++ -DCXX_HAS_TAUT_WARNING  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_b0e7b.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-MYaRO9/src.cxx
+Linking CXX executable cmTC_b0e7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0e7b.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11  -rdynamic CMakeFiles/cmTC_b0e7b.dir/src.cxx.o -o cmTC_b0e7b 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-MYaRO9'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test CC_HAS_TAUT_WARNING succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-RZS4f2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66eec/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66eec.dir/build.make CMakeFiles/cmTC_66eec.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-RZS4f2'
+Building C object CMakeFiles/cmTC_66eec.dir/src.c.o
+/usr/bin/cc -DCC_HAS_TAUT_WARNING  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11    -Wno-tautological-constant-compare -o CMakeFiles/cmTC_66eec.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-RZS4f2/src.c
+Linking C executable cmTC_66eec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66eec.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11  -rdynamic CMakeFiles/cmTC_66eec.dir/src.c.o -o cmTC_66eec 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-RZS4f2'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Determining if the epoll_create exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u68EMq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a225/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a225.dir/build.make CMakeFiles/cmTC_4a225.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u68EMq'
+Building CXX object CMakeFiles/cmTC_4a225.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_4a225.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u68EMq/CheckSymbolExists.cxx
+Linking CXX executable cmTC_4a225
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a225.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_4a225.dir/CheckSymbolExists.cxx.o -o cmTC_4a225 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-u68EMq'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create
+  return ((int*)(&epoll_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the epoll_create1 exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-jpIWVm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_266a0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_266a0.dir/build.make CMakeFiles/cmTC_266a0.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-jpIWVm'
+Building CXX object CMakeFiles/cmTC_266a0.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_266a0.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-jpIWVm/CheckSymbolExists.cxx
+Linking CXX executable cmTC_266a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_266a0.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_266a0.dir/CheckSymbolExists.cxx.o -o cmTC_266a0 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-jpIWVm'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/epoll.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef epoll_create1
+  return ((int*)(&epoll_create1))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files condition_variable exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-fBvhTQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62873/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62873.dir/build.make CMakeFiles/cmTC_62873.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-fBvhTQ'
+Building CXX object CMakeFiles/cmTC_62873.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_62873.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-fBvhTQ/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp
+Linking CXX executable cmTC_62873
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62873.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_62873.dir/ZMQ_HAVE_STL_CONDITION_VARIABLE.cpp.o -o cmTC_62873 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-fBvhTQ'
+
+
+
+Determining if files ifaddrs.h exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bROF57
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_df29f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_df29f.dir/build.make CMakeFiles/cmTC_df29f.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bROF57'
+Building C object CMakeFiles/cmTC_df29f.dir/ZMQ_HAVE_IFADDRS.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_df29f.dir/ZMQ_HAVE_IFADDRS.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bROF57/ZMQ_HAVE_IFADDRS.c
+Linking C executable cmTC_df29f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df29f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_df29f.dir/ZMQ_HAVE_IFADDRS.c.o -o cmTC_df29f 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-bROF57'
+
+
+
+Determining if files sys/uio.h exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Mmg2N5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62ed0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62ed0.dir/build.make CMakeFiles/cmTC_62ed0.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Mmg2N5'
+Building C object CMakeFiles/cmTC_62ed0.dir/ZMQ_HAVE_UIO.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_62ed0.dir/ZMQ_HAVE_UIO.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Mmg2N5/ZMQ_HAVE_UIO.c
+Linking C executable cmTC_62ed0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ed0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_62ed0.dir/ZMQ_HAVE_UIO.c.o -o cmTC_62ed0 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-Mmg2N5'
+
+
+
+Determining if files sys/eventfd.h exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-R6LOD3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_431b1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_431b1.dir/build.make CMakeFiles/cmTC_431b1.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-R6LOD3'
+Building C object CMakeFiles/cmTC_431b1.dir/ZMQ_HAVE_EVENTFD.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_431b1.dir/ZMQ_HAVE_EVENTFD.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-R6LOD3/ZMQ_HAVE_EVENTFD.c
+Linking C executable cmTC_431b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_431b1.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_431b1.dir/ZMQ_HAVE_EVENTFD.c.o -o cmTC_431b1 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-R6LOD3'
+
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_EVENTFD_CLOEXEC succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DMA66O
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b81b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b81b.dir/build.make CMakeFiles/cmTC_0b81b.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DMA66O'
+Building C object CMakeFiles/cmTC_0b81b.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_EVENTFD_CLOEXEC  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0b81b.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DMA66O/src.c
+Linking C executable cmTC_0b81b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b81b.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0b81b.dir/src.c.o -o cmTC_0b81b 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DMA66O'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/eventfd.h>
+
+int main(int argc, char *argv [])
+{
+    int s = eventfd (0, EFD_CLOEXEC);
+    return(s == -1);
+}
+
+
+Determining if the SO_PEERCRED exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DCHG5z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9e58e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9e58e.dir/build.make CMakeFiles/cmTC_9e58e.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DCHG5z'
+Building CXX object CMakeFiles/cmTC_9e58e.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_9e58e.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DCHG5z/CheckSymbolExists.cxx
+Linking CXX executable cmTC_9e58e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e58e.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_9e58e.dir/CheckSymbolExists.cxx.o -o cmTC_9e58e 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-DCHG5z'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_PEERCRED
+  return ((int*)(&SO_PEERCRED))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the clock_gettime exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rhOJI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f0e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f0e2.dir/build.make CMakeFiles/cmTC_0f0e2.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rhOJI'
+Building CXX object CMakeFiles/cmTC_0f0e2.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_0f0e2.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rhOJI/CheckSymbolExists.cxx
+Linking CXX executable cmTC_0f0e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f0e2.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_0f0e2.dir/CheckSymbolExists.cxx.o -o cmTC_0f0e2  -lrt 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-1rhOJI'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the fork exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-n2YtLH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f16c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f16c.dir/build.make CMakeFiles/cmTC_5f16c.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-n2YtLH'
+Building CXX object CMakeFiles/cmTC_5f16c.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_5f16c.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-n2YtLH/CheckSymbolExists.cxx
+Linking CXX executable cmTC_5f16c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f16c.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_5f16c.dir/CheckSymbolExists.cxx.o -o cmTC_5f16c 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-n2YtLH'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fork
+  return ((int*)(&fork))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-uC1lf1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9fa15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9fa15.dir/build.make CMakeFiles/cmTC_9fa15.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-uC1lf1'
+Building CXX object CMakeFiles/cmTC_9fa15.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_9fa15.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-uC1lf1/CheckSymbolExists.cxx
+Linking CXX executable cmTC_9fa15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fa15.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_9fa15.dir/CheckSymbolExists.cxx.o -o cmTC_9fa15 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-uC1lf1'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the accept4 exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-PK6lG4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e35f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e35f.dir/build.make CMakeFiles/cmTC_1e35f.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-PK6lG4'
+Building CXX object CMakeFiles/cmTC_1e35f.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_1e35f.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-PK6lG4/CheckSymbolExists.cxx
+Linking CXX executable cmTC_1e35f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e35f.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_1e35f.dir/CheckSymbolExists.cxx.o -o cmTC_1e35f 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-PK6lG4'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef accept4
+  return ((int*)(&accept4))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strnlen exist passed with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-tAM1sz
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cda05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cda05.dir/build.make CMakeFiles/cmTC_cda05.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-tAM1sz'
+Building CXX object CMakeFiles/cmTC_cda05.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_cda05.dir/CheckSymbolExists.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-tAM1sz/CheckSymbolExists.cxx
+Linking CXX executable cmTC_cda05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cda05.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_cda05.dir/CheckSymbolExists.cxx.o -o cmTC_cda05 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-tAM1sz'
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test ZMQ_HAVE_NOEXCEPT succeeded with the following output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I7Xc6k
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_02056/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_02056.dir/build.make CMakeFiles/cmTC_02056.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I7Xc6k'
+Building CXX object CMakeFiles/cmTC_02056.dir/src.cxx.o
+/usr/bin/c++ -DZMQ_HAVE_NOEXCEPT  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_02056.dir/src.cxx.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I7Xc6k/src.cxx
+Linking CXX executable cmTC_02056
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02056.dir/link.txt --verbose=1
+/usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu++11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_02056.dir/src.cxx.o -o cmTC_02056 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I7Xc6k'
+
+
+Source file was:
+
+struct X 
+{
+    X(int i) noexcept {}
+};
+
+int main(int argc, char *argv [])
+{
+    X x(5);
+    return 0;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_SOCK_CLOEXEC succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-CgZyQR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5ef62/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5ef62.dir/build.make CMakeFiles/cmTC_5ef62.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-CgZyQR'
+Building C object CMakeFiles/cmTC_5ef62.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_SOCK_CLOEXEC  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_5ef62.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-CgZyQR/src.c
+Linking C executable cmTC_5ef62
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ef62.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_5ef62.dir/src.c.o -o cmTC_5ef62 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-CgZyQR'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char *argv [])
+{
+    int s = socket(PF_INET, SOCK_STREAM | SOCK_CLOEXEC, 0);
+    return(s == -1);
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_O_CLOEXEC succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-l24kQE
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b748e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b748e.dir/build.make CMakeFiles/cmTC_b748e.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-l24kQE'
+Building C object CMakeFiles/cmTC_b748e.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_O_CLOEXEC  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_b748e.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-l24kQE/src.c
+Linking C executable cmTC_b748e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b748e.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_b748e.dir/src.c.o -o cmTC_b748e 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-l24kQE'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
+int main(int argc, char *argv [])
+{
+    int s = open ("/dev/null", O_CLOEXEC | O_RDONLY);
+    return s == -1;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_SO_BINDTODEVICE succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-vX9esw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_29898/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_29898.dir/build.make CMakeFiles/cmTC_29898.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-vX9esw'
+Building C object CMakeFiles/cmTC_29898.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_SO_BINDTODEVICE  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_29898.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-vX9esw/src.c
+Linking C executable cmTC_29898
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29898.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_29898.dir/src.c.o -o cmTC_29898 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-vX9esw'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/socket.h>
+
+int main(int argc, char *argv [])
+{
+/* Actually making the setsockopt() call requires CAP_NET_RAW */
+#ifndef SO_BINDTODEVICE
+    return 1;
+#else
+    return 0;
+#endif
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_SO_KEEPALIVE succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-z19qOV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c142f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c142f.dir/build.make CMakeFiles/cmTC_c142f.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-z19qOV'
+Building C object CMakeFiles/cmTC_c142f.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_SO_KEEPALIVE  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_c142f.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-z19qOV/src.c
+Linking C executable cmTC_c142f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c142f.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_c142f.dir/src.c.o -o cmTC_c142f 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-z19qOV'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPCNT succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-XjyUbB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d641a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d641a.dir/build.make CMakeFiles/cmTC_d641a.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-XjyUbB'
+Building C object CMakeFiles/cmTC_d641a.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_TCP_KEEPCNT  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_d641a.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-XjyUbB/src.c
+Linking C executable cmTC_d641a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d641a.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_d641a.dir/src.c.o -o cmTC_d641a 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-XjyUbB'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPCNT,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPIDLE succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I1OZ89
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_85b3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_85b3c.dir/build.make CMakeFiles/cmTC_85b3c.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I1OZ89'
+Building C object CMakeFiles/cmTC_85b3c.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_TCP_KEEPIDLE  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_85b3c.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I1OZ89/src.c
+Linking C executable cmTC_85b3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85b3c.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_85b3c.dir/src.c.o -o cmTC_85b3c 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-I1OZ89'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPIDLE,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TCP_KEEPINTVL succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-SXNC2v
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7fcdc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7fcdc.dir/build.make CMakeFiles/cmTC_7fcdc.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-SXNC2v'
+Building C object CMakeFiles/cmTC_7fcdc.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_TCP_KEEPINTVL  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_7fcdc.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-SXNC2v/src.c
+Linking C executable cmTC_7fcdc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fcdc.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_7fcdc.dir/src.c.o -o cmTC_7fcdc 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-SXNC2v'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+
+int main(int argc, char *argv [])
+{
+    int s, rc, opt = 1;
+    return(
+       ((s = socket(PF_INET, SOCK_STREAM, 0)) == -1) ||
+       ((rc = setsockopt(s, SOL_SOCKET, SO_KEEPALIVE,(char*) &opt, sizeof(int))) == -1) ||
+       ((rc = setsockopt(s, IPPROTO_TCP, TCP_KEEPINTVL,(char*) &opt, sizeof(int))) == -1)
+    );
+}
+
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_TIPC succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-YRWgHt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3df0d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3df0d.dir/build.make CMakeFiles/cmTC_3df0d.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-YRWgHt'
+Building C object CMakeFiles/cmTC_3df0d.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_TIPC  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_3df0d.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-YRWgHt/src.c
+Linking C executable cmTC_3df0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3df0d.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_3df0d.dir/src.c.o -o cmTC_3df0d 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-YRWgHt'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <stdlib.h>
+#include <string.h>
+#include <fcntl.h>
+#include <errno.h>
+#include <sys/socket.h>
+#include <linux/tipc.h>
+
+int main(int argc, char *argv [])
+{
+    struct sockaddr_tipc topsrv;
+    int sd = socket(AF_TIPC, SOCK_SEQPACKET, 0);
+    memset(&topsrv, 0, sizeof(topsrv));
+    topsrv.family = AF_TIPC;
+    topsrv.addrtype = TIPC_ADDR_NAME;
+    topsrv.addr.name.name.type = TIPC_TOP_SRV;
+    topsrv.addr.name.name.instance = TIPC_TOP_SRV;
+    fcntl(sd, F_SETFL, O_NONBLOCK);
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_PTHREAD_SETNAME_2 succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-GiIgb5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_efe17/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_efe17.dir/build.make CMakeFiles/cmTC_efe17.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-GiIgb5'
+Building C object CMakeFiles/cmTC_efe17.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_PTHREAD_SETNAME_2  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_efe17.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-GiIgb5/src.c
+Linking C executable cmTC_efe17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efe17.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_efe17.dir/src.c.o -o cmTC_efe17 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-GiIgb5'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char *argv [])
+{
+    pthread_setname_np (pthread_self(), "foo");
+    return 0;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_PTHREAD_SETAFFINITY succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-rAJW9e
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bbc0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bbc0.dir/build.make CMakeFiles/cmTC_9bbc0.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-rAJW9e'
+Building C object CMakeFiles/cmTC_9bbc0.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_PTHREAD_SETAFFINITY  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -o CMakeFiles/cmTC_9bbc0.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-rAJW9e/src.c
+Linking C executable cmTC_9bbc0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bbc0.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare -D_GNU_SOURCE -Werror -pthread -rdynamic CMakeFiles/cmTC_9bbc0.dir/src.c.o -o cmTC_9bbc0 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-rAJW9e'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <pthread.h>
+
+int main(int argc, char *argv [])
+{
+    cpu_set_t test; 
+    pthread_setaffinity_np (pthread_self(), sizeof(cpu_set_t), &test);
+    return 0;
+}
+
+
+Performing C SOURCE FILE Test ZMQ_HAVE_GETRANDOM succeeded with the following compile output:
+Change Dir: /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-xWFdEE
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3f4ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3f4ee.dir/build.make CMakeFiles/cmTC_3f4ee.dir/build
+gmake[1]: Entering directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-xWFdEE'
+Building C object CMakeFiles/cmTC_3f4ee.dir/src.c.o
+/usr/bin/cc -DZMQ_HAVE_GETRANDOM  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -o CMakeFiles/cmTC_3f4ee.dir/src.c.o -c /home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-xWFdEE/src.c
+Linking C executable cmTC_3f4ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f4ee.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -std=gnu11 -Wno-tautological-constant-compare  -rdynamic CMakeFiles/cmTC_3f4ee.dir/src.c.o -o cmTC_3f4ee 
+gmake[1]: Leaving directory '/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/build/CMakeFiles/CMakeScratch/TryCompile-xWFdEE'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+#include <sys/random.h>
+
+int main (int argc, char *argv [])
+{
+    char buf[4];
+    int rc = getrandom(buf, 4, 0);
+    return rc == -1 ? 1 : 0;
+}
+
+

@@ -1,0 +1,12 @@
+prefix=/home/lukas/git/notsureyet/client/target/debug/build/libzmq-sys-6233d8a1394670a2/out
+exec_prefix=/home/lukas/git/notsureyet/client/target/debug/build/libzmq-sys-6233d8a1394670a2/out
+libdir=/home/lukas/git/notsureyet/client/target/debug/build/libzmq-sys-6233d8a1394670a2/out/lib
+includedir=/home/lukas/git/notsureyet/client/target/debug/build/libzmq-sys-6233d8a1394670a2/out/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.2
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++  -lrt
+Requires.private: 
+Cflags: -I${includedir} -DZMQ_BUILD_DRAFT_API=1

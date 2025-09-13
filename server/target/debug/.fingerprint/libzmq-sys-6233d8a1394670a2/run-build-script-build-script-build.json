@@ -1,0 +1,1 @@
+{"rustc":12013579709055016942,"features":"","declared_features":"","target":0,"profile":0,"path":0,"deps":[[2033935337690168740,"build_script_build",false,9244649702196121329]],"local":[{"RerunIfChanged":{"output":"debug/build/libzmq-sys-6233d8a1394670a2/output","paths":["build.rs"]}},{"RerunIfEnvChanged":{"var":"PROFILE","val":null}}],"rustflags":[],"config":0,"compile_kind":0}

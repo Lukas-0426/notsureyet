@@ -1,0 +1,15 @@
+[package]
+name = "notsureyet"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+miette = "7.6.0"
+zmq = "0.10.0"
+
+[[bin]]
+name = "client" 
+path = "client/src/main.rs"
+[[bin]]
+name = "server" 
+path = "server/src/main.rs"

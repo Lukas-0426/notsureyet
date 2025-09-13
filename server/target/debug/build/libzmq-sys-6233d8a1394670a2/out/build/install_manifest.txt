@@ -1,0 +1,12 @@
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/lib/pkgconfig/libzmq.pc
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/lib/libzmq.a
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/include/zmq.h
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/include/zmq_utils.h
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/zmq/AUTHORS.txt
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/zmq/COPYING.txt
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/zmq/COPYING.LESSER.txt
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/zmq/NEWS.txt
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/cmake/ZeroMQ/ZeroMQTargets.cmake
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/cmake/ZeroMQ/ZeroMQTargets-debug.cmake
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/cmake/ZeroMQ/ZeroMQConfig.cmake
+/home/lukas/git/notsureyet/server/target/debug/build/libzmq-sys-6233d8a1394670a2/out/share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake
