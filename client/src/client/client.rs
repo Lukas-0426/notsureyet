@@ -1,51 +1,64 @@
 
 
 use zmq::*; 
-use miette::*; 
+use miette::{Result, Error}; 
 
 
 
 
-struct clinet {
+pub struct ClientZmq {
 context: zmq::Context,
 requester: zmq::Socket,
 
 }
 
 
-impl client {
+impl ClientZmq {
 
-fn new(self) -> self {
+pub fn new() -> Self {
 
     let context= zmq::Context::new();
     let requestor = context.socket(zmq::REQ).unwrap();
-    self {
+    Self {
         context : context,
-        requestor : requestor,
+        requester : requestor,
     }
 
 }
 
-fn connetct(&mut self, address: &str ) -> Result<()> {
+pub fn connetct_to_addr(&mut self, address: &str ) -> Result<()> {
 
-    assert!(self.requestor.connetct(address).is_ok()); //make sure connects else will panic 
+    if self.requester.connect(address).is_ok() { //make sure connects else will panic 
     Ok(())
+    }
+    else {
+        Err(Error::msg("was not able to connect"))
+    }
 }
 
 
-fn send_request(&mut self, request : &str) -> Result<()> {
+pub fn send_request(&mut self, request : &str, flags: i32) -> Result<()> {
 
-       if  self.requestor.send(request).is_ok {
+       if  self.requester.send(request, flags).is_ok() {
             Ok(())
        }
        else {
-        Err(Error::msg::new("could not send request"))
+        Err(Error::msg("could not send request"))
        }
 
 }
 
-fn recive_request(&mut self, request: Message) -> Result<()> {
-    
+pub fn recive_request(&mut self, flags: i32) -> Result<Message> {
+
+let mut request = zmq::Message::new();
+    if   self.requester.recv( &mut request, flags).is_ok() {
+
+        println!("Recivced  {:?}" , request.as_str()); 
+        Ok(request)
+    }
+    else {
+        Err(Error::msg("was not recived correctly"))
+    }
 }
 
 
