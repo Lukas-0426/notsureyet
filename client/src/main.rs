@@ -3,16 +3,20 @@
 //use async_zmq::{Result, StreamExt}; 
 pub mod client;
 use crate::client::client::ClientZmq;
+use crate::client::cli::Args;
+use clap::*;
 
  fn main()  {
+
+    let args = client::cli::Args::parse();
+
     println!("Connecting to hello world server...\n");
 
-    let context = zmq::Context::new();
-    let requester = context.socket(zmq::REQ).unwrap();
 
     let mut new_client = ClientZmq::new(); 
 
-    new_client.connetct_to_addr("tcp://127.0.0.1:5555"); 
+        let addr = args.port_number;
+    let _ = new_client.connetct_to_addr("tcp://127.0.0.1:5555"); 
 
    
 
@@ -26,6 +30,6 @@ use crate::client::client::ClientZmq;
         if let Ok(request) = new_client.recive_request(0) {
         println!("Received World {}: {}", request.as_str().unwrap(), request_nbr);
         }
-        
+
     }
 }
